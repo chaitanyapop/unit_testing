@@ -1,0 +1,13 @@
+In unit testing there are ways to store the test files and the naming conventions are mentioned below.
+
+1) file_name.test.js
+2)file_name.spec.js
+3)file_name.spec.jsx
+4)file_name.test.jsx
+
+By using above mentioned extentions we can store the particular file file_name
+
+Now there is another way to store the test files.
+
+If we create the __test__ folder and below it if we store any .js or above mentioned extentions file then automatically it will be 
+treated as a test file.

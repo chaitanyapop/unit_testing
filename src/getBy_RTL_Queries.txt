@@ -1,0 +1,26 @@
+We have the example of getAllByRole and geByRole. Similarly, we have other functionalities as well to select the element from the Dom
+
+1) getByLabelText/getAllByLabelText- In this RTL query our label is associated with a particular input box or any other element. We have
+"htmlFor" attribute to associate it with particular DOM element. Using this we can get a DOM element using the text which we write
+inside the label tag e.g <label>hello</label>. In case of getAllByLabelText we get the data in the form of an array.
+
+2) getByPlaceholder/getAllByPlaceholder- In this RTL query we get the data or DOM element when we put the placeholder value inside it.
+The placeholder value is mainly present in the input box or in text box and using that placeholder value we can get the DOM element.
+getAllByPlaceholder is mainly used to get the data in the form of an array for multiple elements and we can process them using a for loop
+
+3)getByText/getAllByText- In this we get the data/DOM element using the text present inside the tags. E.g <p>Hello world</p> now inside 
+the P tag we have Hello world text then using that we can get the DOM element
+
+4)getByTestId/getAllByTestId- This is also same to get the data using the test ID
+
+5)getByDisplayedValue/getAllByDisplayedValue- This RTL query mainly used to get the DOM element based on the value of it. If we have
+given a default value to any element which is mainly an input element or any other as well then based on value parameter we can 
+fetch the DOM element. getAllByDisplayedValue will return a data in an array format.
+
+6)getByTitle/getAllByTitle- This RTL query mainly used to get the data on the basis of the title given the particular tag. If inside a tag
+I have given a title attribute which helps us to give a name when we hover on a element using a mouse. In getAllByTitle we get the DOM
+elements in the form of an array and we can test them using a for loop
+
+7)getAltText/getAllByAltText- This attribute "alt" is mainly used inside an image tag. When image is not loaded then the alternate text of
+it will get displayed. To fetch the DOM element on the basis of "alt" attribute we can use the mentioned RTL query. To get multiple 
+DOM elements we can use getAllByAltText and we can process them using a for loop
